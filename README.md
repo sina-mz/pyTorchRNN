@@ -1,1 +1,3 @@
-# pyTorchRNN
+### pyTorchRNN
+
+Yet another demo for begining to work with RNNs....
