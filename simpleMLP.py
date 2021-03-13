@@ -26,11 +26,12 @@ criterion = nn.MSELoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
 
 # Train the model
-for epoch in range(num_epochs):
-    # Convert numpy arrays to torch tensors
-    inputs = torch.from_numpy(x_train)
-    targets = torch.from_numpy(y_train)
 
+# Convert numpy arrays to torch tensors
+inputs = torch.from_numpy(x_train)
+targets = torch.from_numpy(y_train)
+
+for epoch in range(num_epochs):
     # Forward pass
     outputs = model(inputs)
     loss = criterion(outputs, targets)
