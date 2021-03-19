@@ -12,7 +12,7 @@ Also, this Repo aims to demostrate the implementation of RNNs in PyTorch.
 
 Train signal and the output are show below:
 
-![alt text] (/images/OnTrainOutput.png)
+![Figure](https://github.com/sina-lib/pyTorchRNN/blob/main/images/OnTestOutput.png?raw=true)
 
 
 Train sine wave is generated at 1.8 Hz and is sampled at rate of 588 samples/second.
@@ -20,6 +20,6 @@ Train sine wave is generated at 1.8 Hz and is sampled at rate of 588 samples/sec
 
 The same model creates output on a test signal as below:
 
-![alt text] (/images/OnTestOutput.png)
+![Fig2](/images/OnTestOutput.png)
 
 
